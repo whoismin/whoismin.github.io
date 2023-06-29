@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto');
+*{
+ margin:0;
+ padding: 0;
+ outline: 0;
+}
+
+.filter{
+ position: relative;;
+ z-index: 1;
+
+}
+
+.row-filter{
+    width: 490%;
+}
+
+
+table{
+ position: relative;
+ z-index: 2;
+ top: 50%;
+ left: 0.25%;
+ width: 20%; 
+ border-spacing: 0;
+ box-shadow: 0 2px 15px rgba(64,64,64,.7);
+ border-radius: 50px 50px 5px 5px;
+
+
+}
+td , th{
+ padding: 15px 2px;
+ text-align: center;
+ 
+
+}
+th{
+ background-color: rgb(238, 89, 89);
+ color: #fafafa;
+ font-family: 'Open Sans',Sans-serif;
+ font-weight: 200;
+ text-transform: uppercase;
+
+}
+
+
+
+
+tr{
+ width: 100%;
+ background-color: #fafafa;
+ font-family: 'Montserrat', sans-serif;
+}
+tr:nth-child(even){
+ background-color: #eeeeee;
+}
